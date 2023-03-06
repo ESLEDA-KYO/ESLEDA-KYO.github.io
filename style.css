@@ -9,14 +9,16 @@ p{
     padding-top: 10%;
 }
 button{
-    
+    position: absolute;
     border-radius: 20px;
     background: #534F4F;
     border: none;
     padding:16px ;
-    margin-top: 50%;
+    margin-top: 90%;
+    right: 40%;
 }
 button a{
+    
     color:#fff;
     text-decoration: none;
     font-size: 1.5em;
@@ -28,7 +30,7 @@ img{
     position: absolute;
     right: 12%;
     
-    
+    border: 1px solid beige;
     height:60vh;
     margin-top: 10%;
     
