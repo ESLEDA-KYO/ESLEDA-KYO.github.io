@@ -1,38 +1,37 @@
-@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Chakra+Petch&family=Shantell+Sans:ital,wght@1,300&display=swap');
-/*
-font-family: 'Chakra Petch', sans-serif;
-font-family: 'Shantell Sans', cursive;
-font-family: 'Caveat', cursive;
 
-*/
-body{
-    display: flex;
-    justify-content: center;
+html{
     background: #EFD5C9;
 }
-main{
-    
-    width: 60%;
-    
-    
-
+p{
+    color: #000;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding-top: 10%;
 }
-main .contenedor{
-    display: flex;
-    justify-content: center;
-    
-    background: #EFD5C9;
-    margin: 1em;
-}
-
-.contenedor img{
-    width: 200px;
-    
-}
-.contenedor p{
-    font-family: 'Shantell Sans', cursive;
+button{
+    position: absolute;
+    border-radius: 20px;
+    background: #534F4F;
+    border: none;
+    padding:16px ;
+    margin-top: 90%;
+    right: 40%;
 }
 button a{
+    
+    color:#fff;
     text-decoration: none;
+    font-size: 1.5em;
+    
+    
+
+}
+img{
+    position: absolute;
+    right: 12%;
+    
+    border: 1px solid beige;
+    height:60vh;
+    margin-top: 10%;
     
 }
