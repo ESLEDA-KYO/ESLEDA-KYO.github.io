@@ -5,7 +5,7 @@ font-family: 'Shantell Sans', cursive;
 body{
     display: flex;
     justify-content: center;
-    background: #EFD5C9;
+    background: #0B1522;
 }
 main{
     margin-top: 20%;
@@ -18,7 +18,7 @@ main .contenedor{
     display: flex;
     justify-content: center;
     
-    background: #EFD5C9;
+    background: #0B1522;
     margin: 1em;
 }
 
@@ -28,7 +28,57 @@ main .contenedor{
 }
 .contenedor p{
     font-family: 'Shantell Sans', cursive;
+    font-size: 3em;
+    color: azure;
 }
 button a{
     text-decoration: none;
 }
+
+#corazoncontenedor{
+    
+    
+    margin-left: 0%;
+    
+    min-height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #0B1522;
+}
+#corazon{
+    
+    height: 100px;
+    width: 100px;
+    background-color: #FF0042;
+    position: relative;
+    transform: rotate(45deg);
+    box-shadow: -20px 20px 150px #f20044;
+    animation: palpitar 0.5s linear infinite alternate;
+}
+@keyframes palpitar{
+    0%{transform: rotate(45deg) scale(1.10);}
+    80%{transform: rotate(45deg) scale(1.0);}
+    100%{transform: rotate(45deg) scale(0.8);}
+}
+#corazon::before{
+    content: "";
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    background: #FF0042;
+    right: 50%;
+    border-radius: 50%;
+    box-shadow: 20px 20px 150px #f20044;
+}
+#corazon::after{
+    content: "";
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    background: #FF0042;
+    top: -50%;
+    border-radius: 50%;
+    box-shadow: 20px 20px 150px #f20044;
+}
+
